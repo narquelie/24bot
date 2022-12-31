@@ -7,7 +7,6 @@ function createBot () {
     host: "narquelie.aternos.me",
     port: "51427",
     username: "Guard",
-    version: false
     })
     bot.on('login', function() {
       bot.chat('/reginster 123123123 123123123')
