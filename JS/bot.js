@@ -9,7 +9,7 @@ function createBot () {
     username: "Guard",
     })
     bot.on('login', function() {
-      bot.chat('/reginster 123123123 123123123')
+      bot.chat('hey')
     })
     bot.on('chat', (username, message) => {
       if (username === bot.username) return
